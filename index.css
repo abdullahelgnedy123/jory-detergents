@@ -166,9 +166,9 @@
     width: fit-content;
     background-color: #f1f1f1; /* لون الخلفية */
     color: #2c3e50; /* لون الخط */
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
-    padding: 10px 20px; /* مسافة داخلية */
+    padding: 3px 10px; /* مسافة داخلية */
     border-radius: 12px; /* تدوير الحواف */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف */
     border: 1px solid #ddd; /* حدود خفيفة */

@@ -166,9 +166,9 @@
     width: fit-content;
     background-color: #f1f1f1; /* لون الخلفية */
     color: #2c3e50; /* لون الخط */
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bold;
-    padding: 3px 10px; /* مسافة داخلية */
+    padding: 10px 20px; /* مسافة داخلية */
     border-radius: 12px; /* تدوير الحواف */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف */
     border: 1px solid #ddd; /* حدود خفيفة */
@@ -209,21 +209,20 @@
   }
   
   .section2 img {
-    width: 82%;
-    border-radius: 10px;
+    width: 80%;
     margin-left: 10%;
     margin-top: 20px;
   }
   
   .section2 h3 {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 15px;
   }
   
   .section2 h4 {
     text-align: center;
-    margin-top: 4px;
-    padding-bottom: 10px;
+    margin-top: 5px;
+    padding-bottom: 30px;
   }
   
   .section3 {
@@ -254,6 +253,8 @@
     gap: 20px;
     padding: 20px;
 }
+
+
 
 
 .product {
@@ -299,6 +300,9 @@
   font-size: 18px;
   margin-top: 5px;
 }
+
+
+
 
 
 

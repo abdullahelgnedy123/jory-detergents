@@ -119,18 +119,9 @@
 
 
   @media (max-width: 880px) {
-    .content h2, .content h4 {
-        font-size: 22px; /* تصغير حجم النص */
-        line-height: 1.4; /* ضبط المسافة بين الأسطر */
-        display: -webkit-box;
-        -webkit-line-clamp: 2; /* السماح بسطرين فقط */
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-align: center; /* توسيط النص */
-        white-space: normal;
+    .main-img {
+        display: none;
     }
-}
-
 
     .content h2 {
         font-size: 24px; /* تصغير حجم العنوان */

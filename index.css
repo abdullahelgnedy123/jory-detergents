@@ -132,11 +132,11 @@
     flex-direction: column;
   }
   .content h2 {
-    font-size: 31px;
+    font-size: 40px;
   }
   .content h4 {
     color: #ff8000;
-    font-size: 22px;
+    font-size: 25px;
     margin: 30px 0;
     text-shadow: 0 0 30px #ff8000;
   }

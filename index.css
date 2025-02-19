@@ -115,28 +115,53 @@
     padding-top: 5rem;
   }
   
+
+
+
   @media (max-width: 880px) {
     .main-img {
-      display: none;
+        display: none;
     }
-  }
 
-  
-  
-  .content {
+    .content h2 {
+        font-size: 24px; /* تصغير حجم العنوان */
+        line-height: 1.4; /* ضبط المسافة بين الأسطر */
+        max-height: calc(1.4em * 2); /* ضمان بقاء النص في سطرين فقط */
+        overflow: hidden; /* منع النص من التمدد */
+        display: block; /* ضمان عدم التأثير على العناصر الأخرى */
+        white-space: normal; /* السماح بتعدد الأسطر بدون نقاط */
+    }
+
+    .content h4 {
+        font-size: 18px; /* تقليل حجم النص */
+        line-height: 1.4;
+        max-height: calc(1.4em * 2); /* ضبط النص ليبقى في سطرين فقط */
+        overflow: hidden;
+        display: block;
+        white-space: normal;
+    }
+}
+
+.content {
     margin-inline: 50px;
     display: flex;
     flex-direction: column;
-  }
-  .content h2 {
+}
+
+.content h2 {
     font-size: 40px;
-  }
-  .content h4 {
+}
+
+.content h4 {
     color: #ff8000;
     font-size: 25px;
     margin: 30px 0;
     text-shadow: 0 0 30px #ff8000;
-  }
+}
+
+
+
+
   
   .content button {
     height: 60px;

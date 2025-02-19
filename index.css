@@ -299,13 +299,37 @@ body, p, h1, h2, h3, h4, h5, h6, span, a, li, div {
   transform: scale(1.05);
 }
 
+
+
+
+
+
+
 .product h3 {
-  font-size: 16px;
+  background-color:#ddd;
+  
+
+  color: #fff;              /* لون الخط أبيض ليبرز على الخلفية */
+  display: inline-block;    /* ليكون الخلفية فقط حول النص */
+  padding: 5px 10px;        /* مسافة داخلية لإظهار الخلفية */
+  border-radius: 8px;       /* تدوير الحواف */
+  margin: 5px 0;            /* مسافة علوية وسفلية */
+  
+  /* إضافة ظل خفيف حول الخلفية لإعطاء إحساس الإضاءة */
+  box-shadow: 0 0 8px rgba(255, 193, 7, 0.5);
+  
+  /* تحسين شكل الخط */
   font-weight: bold;
-  margin: 10px 0;
-  font-family: "Arial", sans-serif;
-  color: #2c3e50;
+  font-size: 16px;
+  text-align: center;
 }
+
+
+
+
+
+
+
 
 .price {
   font-weight: bold;

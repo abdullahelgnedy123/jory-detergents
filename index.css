@@ -181,7 +181,7 @@
   .categories {
     display: flex;
     margin-left: 3%;
-    margin-inline: 40px;
+    margin-inline: 35px;
     justify-content: space-between;
     flex-wrap: wrap;
   }

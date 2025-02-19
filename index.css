@@ -140,7 +140,7 @@ body, p, h1, h2, h3, h4, h5, h6, span, a, li, div {
     flex-direction: column;
   }
   .content h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .content h4 {
     color: #ff8000;

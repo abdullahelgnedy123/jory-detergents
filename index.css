@@ -427,34 +427,35 @@ footer {
   
   .about-container {
     text-align: center;
-    background: linear-gradient(to bottom, #ffffff, #f2f2f2); /* تدرج خلفية أنيق */
-    padding: 40px;
+    background: linear-gradient(to bottom, #ffffff, #f7f7f7); /* تدرج خلفية ناعم */
+    padding: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    max-width: 700px;
-    margin: 50px auto;
+    max-width: 90%; /* تناسب تلقائي مع الشاشات الصغيرة */
+    margin: 40px auto;
     color: #333;
     border: 1px solid #ddd;
     transition: all 0.3s ease-in-out;
 }
 
 .about-container:hover {
-    transform: scale(1.02); /* تكبير خفيف عند المرور */
+    transform: scale(1.02);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .about-title {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
-    color: #ff8000; /* لون برتقالي جذاب */
-    margin-bottom: 15px;
+    color: #ff8000;
+    margin-bottom: 10px;
     text-shadow: 2px 2px 5px rgba(255, 128, 0, 0.3);
 }
 
 .about-text {
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: 16px;
+    line-height: 1.7;
     color: #555;
+    padding: 0 10px; /* تحسين المسافات على الشاشات الصغيرة */
 }
 
 .about-container::after {
@@ -466,6 +467,24 @@ footer {
     margin: 15px auto 0;
     border-radius: 3px;
 }
+
+/* تحسين العرض على الهواتف المحمولة */
+@media (max-width: 768px) {
+    .about-container {
+        padding: 25px;
+        max-width: 95%; /* تمدد أكثر للهواتف */
+    }
+
+    .about-title {
+        font-size: 24px;
+    }
+
+    .about-text {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
 
 
   

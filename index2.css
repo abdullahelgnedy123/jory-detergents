@@ -94,51 +94,14 @@
     padding-block: 0.75rem;
   }
   
-
-
-
-
-.logo img {
-  display: flex;
-  border-radius: 50%;
-  margin-top: 5px;
-  width: 7rem;
-  height: 7rem;
-  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
-  box-shadow: 0 0 20px rgba(255, 165, 0, 0.8); /* إضاءة برتقالية حول الصورة */
-}
-
-.logo img:hover {
-  transform: scale(1.1); /* تكبير اللوجو عند التمرير عليه */
-  box-shadow: 0 0 30px rgba(255, 140, 0, 1); /* زيادة الإضاءة عند التفاعل */
-}
-
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    box-shadow: 0 0 10px rgba(255, 165, 0, 0.8);
+  .logo img {
+    display: flex;
+    border-radius: 50%;
+    margin-top: 5px;
+    width: 7rem;
+    height: 7rem;
   }
-  50% {
-    transform: scale(1.1);
-    box-shadow: 0 0 30px rgba(255, 140, 0, 1);
-  }
-  100% {
-    transform: scale(1);
-    box-shadow: 0 0 10px rgba(255, 165, 0, 0.8);
-  }
-}
-
-.logo img {
-  animation: pulse 2s infinite;
-}
-
-
-
-
-
-
-
+  
   .homepage {
     display: flex;
     align-items: center;

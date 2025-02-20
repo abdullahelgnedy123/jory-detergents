@@ -337,7 +337,7 @@ body, p, h1, h2, h3, h4, h5, h6, span, a, li, div {
 }
 
 .product:hover {
-  transform: scale(1.15);
+  transform: scale(1.12);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 

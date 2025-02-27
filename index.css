@@ -486,5 +486,6 @@ footer {
 }
 
 
-
-  
+.facebook-browser .logo {
+  max-width: 80%; /* تقليل حجم الصورة عند الفتح من فيسبوك */
+}
